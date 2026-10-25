@@ -7,6 +7,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "Gameboy Archive",
+      customCss: ["./src/styles/custom.css"],
       social: [
         {
           icon: "github",
@@ -15,7 +16,7 @@ export default defineConfig({
         },
       ],
       sidebar: [
-        {
+       /* {
           label: "Introduction",
           items: [
             // Each item here is one entry in the navigation menu.
@@ -29,15 +30,15 @@ export default defineConfig({
         {
           label: "Reference",
           items: [{ autogenerate: { directory: "reference" } }],
-        },
+        },*/
         {
           label: "Game Boy Family",
           items: [
             {
               label: "Game Boy DMG",
               items: [
-                { label: "Overview", slug: "consoles/example" },
-                { label: "History", slug: "consoles/example" },
+                { label: "Overview", slug: "consoles/dmg-01/overview" },
+                { label: "History", slug: "consoles/dmg-01/history" },
 
                 {
                   label: "Physical Design",
@@ -46,9 +47,9 @@ export default defineConfig({
                       label: "Shell & Housing",
                       items: [
 						{ label: "Overview", slug: "empty" },
-                        { label: "Basic Colors", slug: "empty" },
-						{ label: "Play it Loud! Serie", slug: "empty" },
-						{ label: "Limited Editions", slug: "empty" },						
+						{ label: "Basic Colors", slug: "consoles/dmg-01/physical-design/shell-housing/basic-colors" },
+						{ label: "Play It Loud! / Game Boy Bros.", slug: "consoles/dmg-01/physical-design/shell-housing/play-it-loud" },
+						{ label: "Limited Editions", slug: "consoles/dmg-01/physical-design/shell-housing/limited-editions" },						
                       ],
                     },
 

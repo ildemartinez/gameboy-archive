@@ -1,40 +1,49 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
-# template: splash # Remove or comment out this line to display the site sidebar on this page.
+title: Game Boy Archive
+description: An illustrated reference to Nintendo’s Game Boy family, from the original DMG-01 to later handhelds and variants.
 hero:
-  tagline: Congrats on setting up a new Starlight project
+  title: Every Game Boy has a story.
+  tagline: Explore the hardware, history, colors, and regional variants of Nintendo’s iconic handheld family.
   image:
-    file: ../../assets/houston.webp
+    file: ../../assets/consoles/game-boy-family/lineup/gameboy-family.jpg
+    alt: A collection of Nintendo Game Boy family systems, including the original Game Boy, Pocket, Color, Advance, and Micro.
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: Explore the original DMG-01
+      link: /consoles/dmg-01/overview/
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
+    - text: Browse colors and editions
+      link: /consoles/dmg-01/physical-design/shell-housing/basic-colors/
       variant: minimal
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { CardGrid, LinkCard } from '@astrojs/starlight/components';
 
-## Next steps
+<p class="home-image-credit">
+  Image: <a href="https://commons.wikimedia.org/wiki/File:Gborgy2lg.jpg">TheUncleBob via Wikimedia Commons</a>, released into the public domain.
+</p>
 
-<CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Change page layout" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+## Start exploring
+
+The Game Boy is more than one console. Follow its design from the original DMG-01 through the smaller, brighter, and more colorful systems that expanded the family.
+
+<CardGrid>
+  <LinkCard
+    title="The original DMG-01"
+    href="/consoles/dmg-01/overview/"
+    description="Get to know the hardware and the defining features of Nintendo’s first Game Boy."
+  />
+  <LinkCard
+    title="History and legacy"
+    href="/consoles/dmg-01/history/"
+    description="Trace the ideas and decisions behind the handheld’s development and release."
+  />
+  <LinkCard
+    title="Shells, colors, and editions"
+    href="/consoles/dmg-01/physical-design/shell-housing/basic-colors/"
+    description="Compare the original finish, Play It Loud! / Game Boy Bros., and special releases."
+  />
 </CardGrid>
+
+## Built as a reference
+
+This archive brings together model histories, hardware notes, physical details, and regional variations. It is growing page by page, with the aim of helping readers explore the consoles and identify the version in their hands.
