@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img" aria-labelledby="title desc">
+  <title id="title">Image placeholder: annotated DMG-01 front and back</title><desc id="desc">Replace with a clear console photograph with callouts for the controls, display, ports, power, and battery cover.</desc>
+  <rect width="960" height="400" rx="24" fill="#edf3e8"/><rect x="18" y="18" width="924" height="364" rx="18" fill="none" stroke="#527b62" stroke-width="3" stroke-dasharray="12 10"/>
+  <text x="56" y="78" fill="#31523d" font-family="Arial,sans-serif" font-size="19" font-weight="700" letter-spacing="3">VISUAL PLACEHOLDER</text><text x="56" y="138" fill="#1f3327" font-family="Arial,sans-serif" font-size="34" font-weight="700">Annotated DMG-01 views</text>
+  <rect x="382" y="178" width="150" height="158" rx="24" fill="#b9c2a2" stroke="#31523d" stroke-width="6"/><rect x="405" y="198" width="104" height="64" rx="7" fill="#657d59"/><circle cx="426" cy="290" r="13" fill="#31523d"/><circle cx="482" cy="289" r="12" fill="#c44f32"/><path d="M393 286h38m-19-19v38" stroke="#31523d" stroke-width="9" stroke-linecap="round"/>
+  <text x="56" y="355" fill="#31523d" font-family="Arial,sans-serif" font-size="21">Replace with: front/rear product photos and researched callouts to controls, ports, and power features.</text>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img" aria-labelledby="title desc">
+  <title id="title">Image placeholder: open and closed Game Boy Advance SP</title><desc id="desc">Replace with front and side photographs identifying an AGS-001 or AGS-101 display revision.</desc>
+  <rect width="960" height="400" rx="24" fill="#edf3e8"/><rect x="18" y="18" width="924" height="364" rx="18" fill="none" stroke="#527b62" stroke-width="3" stroke-dasharray="12 10"/>
+  <text x="56" y="78" fill="#31523d" font-family="Arial,sans-serif" font-size="19" font-weight="700" letter-spacing="3">VISUAL PLACEHOLDER</text><text x="56" y="138" fill="#1f3327" font-family="Arial,sans-serif" font-size="34" font-weight="700">Game Boy Advance SP</text>
+  <rect x="378" y="178" width="86" height="142" rx="14" fill="#b9c2a2" stroke="#31523d" stroke-width="5"/><rect x="390" y="190" width="62" height="62" rx="4" fill="#657d59"/><path d="M421 254v18" stroke="#31523d" stroke-width="6"/><rect x="475" y="246" width="86" height="74" rx="14" fill="#b9c2a2" stroke="#31523d" stroke-width="5"/><circle cx="512" cy="282" r="7" fill="#c44f32"/>
+  <text x="56" y="355" fill="#31523d" font-family="Arial,sans-serif" font-size="21">Replace with: an open/closed SP pair; label front-lit AGS-001 or backlit AGS-101.</text>
+</svg>

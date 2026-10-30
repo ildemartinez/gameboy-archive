@@ -1,11 +1,13 @@
 ---
 title: History
-description: effmtpy description
+description: Development, launch, and evolution of Nintendo's original Game Boy.
 ---
 
 ## From Game & Watch to Game Boy
 
 The Game Boy emerged from Nintendo's desire to take its successful handheld gaming concept to the next level. The company's Research & Development 1 division (R&D1), led by Gunpei Yokoi, had already established Nintendo as a major player in portable gaming through the Game & Watch series.
+
+![Placeholder for a researched timeline from Game & Watch through the Game Boy generations.](../../../../assets/placeholders/family/dmg-development-timeline.svg)
 
 By the early 1980s, however, the limitations of the Game & Watch platform were becoming increasingly apparent. Each unit was built around a single game and used a segmented LCD designed specifically for that title. R&D1 began looking for a way to create a more flexible system that could run multiple games while remaining inexpensive, compact, and suitable for everyday use.
 
@@ -76,6 +78,10 @@ Nintendo had optimized the system around a different set of priorities: **low co
 The result was a platform capable of surviving years of use while remaining affordable enough to reach a very large audience.
 
 The Game Boy's success was subsequently reinforced by its extensive software library and by the arrival of major franchises, most notably Pokémon in the late 1990s.
+
+The original design was later refined without abandoning its cartridge-based foundation. The [Game Boy Pocket](/consoles/game-boy-pocket/) reduced the size and changed the battery format; the Japan-only [Game Boy Light](/consoles/game-boy-light/) added an electroluminescent screen panel. The [Game Boy Color](/consoles/game-boy-color/) introduced native color and revised hardware while continuing to play the earlier monochrome library.
+
+Nintendo's later [Game Boy Advance](/consoles/game-boy-advance/) marked a new 32-bit generation, followed by the folding [Advance SP](/consoles/game-boy-advance-sp/) and compact [Micro](/consoles/game-boy-micro/). These systems extended the family but introduced distinct hardware and compatibility boundaries.
 
 ## Legacy
 

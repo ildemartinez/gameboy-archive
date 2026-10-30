@@ -7,6 +7,8 @@ description: Specially branded, promotional, and contest-related DMG-01 consoles
 
 The DMG-01 does not have one single, consistently documented catalog of limited editions. Collectors use the term for consoles produced or distributed in restricted circumstances, often identified by a special logo, branding, unusual shell, or a documented promotional release.
 
+![Placeholder for verified branded or promotional DMG-01 examples, with provenance and market captions.](../../../../../../assets/placeholders/dmg-01/housing/limited-editions-examples.svg)
+
 This category is separate from the standard color ranges covered in [Basic Colors](/consoles/dmg-01/physical-design/shell-housing/basic-colors/) and [Play It Loud! / Game Boy Bros.](/consoles/dmg-01/physical-design/shell-housing/play-it-loud/). A regular colored shell is not, by itself, evidence of a limited edition.
 
 ## Documented examples

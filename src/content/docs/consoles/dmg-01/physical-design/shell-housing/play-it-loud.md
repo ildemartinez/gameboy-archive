@@ -7,6 +7,8 @@ description: Nintendo's 1995 color-shell campaign for the original Game Boy, wit
 
 Nintendo introduced colored versions of the original Game Boy in Japan as **Game Boy Bros.** on November 21, 1994. In 1995, the colored systems were promoted in North America and Europe under the **Play It Loud!** campaign. These releases gave the established DMG-01 a new visual identity while retaining the same core hardware and game compatibility. Nintendo's history records the 1995 introduction of Game Boy systems with color casings.
 
+![Placeholder for a sourced lineup of Play It Loud! and Game Boy Bros. shell colors, captioned by region.](../../../../../../assets/placeholders/dmg-01/housing/play-it-loud-lineup.svg)
+
 The Japanese name refers to that market's colored DMG-01 lineup; it is not a separate console model. The timing, campaign name, and available finishes differed by market, so surviving consoles and packaging should be documented with their region and product markings.
 
 ## Game Boy Bros. in Japan

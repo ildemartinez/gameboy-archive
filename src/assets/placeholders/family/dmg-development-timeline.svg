@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400" role="img" aria-labelledby="title desc">
+  <title id="title">Image placeholder: Game Boy development timeline</title><desc id="desc">Replace with a sourced timeline showing Game and Watch, the DMG launch, and later Game Boy generations.</desc>
+  <rect width="960" height="400" rx="24" fill="#edf3e8"/><rect x="18" y="18" width="924" height="364" rx="18" fill="none" stroke="#527b62" stroke-width="3" stroke-dasharray="12 10"/>
+  <text x="56" y="78" fill="#31523d" font-family="Arial,sans-serif" font-size="19" font-weight="700" letter-spacing="3">VISUAL PLACEHOLDER</text><text x="56" y="138" fill="#1f3327" font-family="Arial,sans-serif" font-size="34" font-weight="700">Game Boy development timeline</text>
+  <path d="M120 254H840" stroke="#527b62" stroke-width="8" stroke-linecap="round"/><g fill="#c44f32" stroke="#edf3e8" stroke-width="8"><circle cx="150" cy="254" r="20"/><circle cx="365" cy="254" r="20"/><circle cx="580" cy="254" r="20"/><circle cx="795" cy="254" r="20"/></g>
+  <text x="56" y="330" fill="#31523d" font-family="Arial,sans-serif" font-size="21">Replace with: a sourced chronology linking Game &amp; Watch, DMG, Pocket/Light, Color, and Advance.</text>
+</svg>
