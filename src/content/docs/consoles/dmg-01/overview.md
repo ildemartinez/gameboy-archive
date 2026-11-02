@@ -26,4 +26,4 @@ Its serial link port supports communication between compatible systems and perip
 - [Battery compartment](/consoles/battery/)
 - [Game Boy cartridge formats and compatibility](/cartridges/game-boy-cartridges/)
 - [DMG-CPU board revisions](/consoles/dmg-01/pcbs-revisions/dmg-cpu-01/)
-- [Technical reference for CPU, memory, display, audio, and cartridges](/reference/example/)
+- [Architecture and technical specifications](/consoles/dmg-01/architecture-specifications/)

@@ -24,7 +24,7 @@ export default defineConfig({
               items: [
                 { label: "Overview", slug: "consoles/dmg-01/overview" },
                 { label: "History", slug: "consoles/dmg-01/history" },
-
+                { label: "Architecture & Specifications", slug: "consoles/dmg-01/architecture-specifications" },
                 {
                   label: "Physical Design",
                   items: [
@@ -40,8 +40,12 @@ export default defineConfig({
 
                     { label: "Materials", slug: "consoles/dmg-01/physical-design/materials" },
                     { label: "Dimensions", slug: "consoles/dmg-01/physical-design/dimensions" },
+                    { label: "LCD Display", slug: "consoles/dmg-01/physical-design/lcd-display" },
+                    { label: "Power & Connections", slug: "consoles/dmg-01/physical-design/power-connections" },
+                    { label: "Link Port & Peripherals", slug: "consoles/dmg-01/physical-design/link-port-peripherals" },
                     { label: "Screws & Fasteners", slug: "consoles/dmg-01/physical-design/screws-fasteners" },
                     { label: "Buttons & Membranes", slug: "consoles/dmg-01/physical-design/buttons-membranes" },
+                    { label: "Speaker & Headphone Jack", slug: "consoles/dmg-01/physical-design/audio-output" },
                     { label: "Battery Compartment", slug: "consoles/battery" },
                     { label: "Cartridge Slot", slug: "consoles/dmg-01/physical-design/cartridge-slot" },
                     { label: "Labels & Markings", slug: "consoles/dmg-01/physical-design/labels-markings" },
@@ -59,6 +63,14 @@ export default defineConfig({
                     { label: "DMG-CPU-06", slug: "consoles/dmg-01/pcbs-revisions/dmg-cpu-06" },
                     { label: "DMG-CPU-07", slug: "consoles/dmg-01/pcbs-revisions/dmg-cpu-07" },
                     { label: "DMG-CPU-08", slug: "consoles/dmg-01/pcbs-revisions/dmg-cpu-08" },
+                  ],
+                },
+                {
+                  label: "Collectibles",
+                  items: [
+                    { label: "Manuals", slug: "consoles/dmg-01/documentation-merchandise/manuals" },
+                    { label: "Boxes & Packaging", slug: "consoles/dmg-01/documentation-merchandise/packaging" },
+                    { label: "Official Merchandise", slug: "consoles/dmg-01/documentation-merchandise/official-merchandise" },
                   ],
                 },
                 { label: "Modifications", slug: "consoles/dmg-01/modifications" },
