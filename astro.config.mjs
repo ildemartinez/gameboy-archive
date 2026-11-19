@@ -4,6 +4,8 @@ import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
+  // Public URL of the deployed site (used for the sitemap and canonical links).
+  site: "https://gameboy-archive.gameboy-archive.workers.dev",
   // Former routes kept working after pages moved.
   redirects: {
     "/empty": "/consoles/dmg-01/physical-design/overview/",

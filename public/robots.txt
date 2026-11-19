@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gameboy-archive.gameboy-archive.workers.dev/sitemap-index.xml
