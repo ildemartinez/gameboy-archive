@@ -22,8 +22,11 @@ Its serial link port supports communication between compatible systems and perip
 ## Explore the DMG-01
 
 - [History and development](/consoles/dmg-01/history/)
+- [Physical design: enclosure, controls, and interfaces](/consoles/dmg-01/physical-design/overview/)
 - [Shell, colors, and special editions](/consoles/dmg-01/physical-design/shell-housing/overview/)
 - [Battery compartment](/consoles/battery/)
 - [Game Boy cartridge formats and compatibility](/cartridges/game-boy-cartridges/)
-- [DMG-CPU board revisions](/consoles/dmg-01/pcbs-revisions/dmg-cpu-01/)
+- [DMG-CPU board revisions](/consoles/dmg-01/pcbs-revisions/overview/)
 - [Architecture and technical specifications](/consoles/dmg-01/architecture-specifications/)
+- [Repair and troubleshooting by symptom](/repair/overview/)
+- [How the DMG-01 compares with later models](/consoles/model-comparison/)

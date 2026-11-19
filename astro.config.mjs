@@ -4,6 +4,10 @@ import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
+  // Former routes kept working after pages moved.
+  redirects: {
+    "/empty": "/consoles/dmg-01/physical-design/overview/",
+  },
   integrations: [
     starlight({
       title: "Gameboy Archive",
@@ -19,6 +23,8 @@ export default defineConfig({
         {
           label: "Game Boy Family",
           items: [
+            { label: "Family Overview", slug: "consoles/game-boy" },
+            { label: "Model Comparison", slug: "consoles/model-comparison" },
             {
               label: "Game Boy DMG",
               items: [
@@ -27,17 +33,18 @@ export default defineConfig({
                 { label: "Architecture & Specifications", slug: "consoles/dmg-01/architecture-specifications" },
                 {
                   label: "Physical Design",
+                  collapsed: true,
                   items: [
+                    { label: "Overview", slug: "consoles/dmg-01/physical-design/overview" },
                     {
                       label: "Shell & Housing",
                       items: [
                         { label: "Overview", slug: "consoles/dmg-01/physical-design/shell-housing/overview" },
-						{ label: "Basic Colors", slug: "consoles/dmg-01/physical-design/shell-housing/basic-colors" },
-						{ label: "Play It Loud! / Game Boy Bros.", slug: "consoles/dmg-01/physical-design/shell-housing/play-it-loud" },
-						{ label: "Limited Editions", slug: "consoles/dmg-01/physical-design/shell-housing/limited-editions" },						
+                        { label: "Basic Colors", slug: "consoles/dmg-01/physical-design/shell-housing/basic-colors" },
+                        { label: "Play It Loud! / Game Boy Bros.", slug: "consoles/dmg-01/physical-design/shell-housing/play-it-loud" },
+                        { label: "Limited Editions", slug: "consoles/dmg-01/physical-design/shell-housing/limited-editions" },
                       ],
                     },
-
                     { label: "Materials", slug: "consoles/dmg-01/physical-design/materials" },
                     { label: "Dimensions", slug: "consoles/dmg-01/physical-design/dimensions" },
                     { label: "LCD Display", slug: "consoles/dmg-01/physical-design/lcd-display" },
@@ -54,7 +61,9 @@ export default defineConfig({
                 },
                 {
                   label: "PCBs & Revisions",
+                  collapsed: true,
                   items: [
+                    { label: "Overview", slug: "consoles/dmg-01/pcbs-revisions/overview" },
                     { label: "DMG-CPU-01", slug: "consoles/dmg-01/pcbs-revisions/dmg-cpu-01" },
                     { label: "DMG-CPU-02", slug: "consoles/dmg-01/pcbs-revisions/dmg-cpu-02" },
                     { label: "DMG-CPU-03", slug: "consoles/dmg-01/pcbs-revisions/dmg-cpu-03" },
@@ -66,7 +75,8 @@ export default defineConfig({
                   ],
                 },
                 {
-                  label: "Collectibles",
+                  label: "Manuals, Packaging & Merchandise",
+                  collapsed: true,
                   items: [
                     { label: "Manuals", slug: "consoles/dmg-01/documentation-merchandise/manuals" },
                     { label: "Boxes & Packaging", slug: "consoles/dmg-01/documentation-merchandise/packaging" },
@@ -82,12 +92,33 @@ export default defineConfig({
             { label: "Game Boy Advance", slug: "consoles/game-boy-advance" },
             { label: "Game Boy Advance SP", slug: "consoles/game-boy-advance-sp" },
             { label: "Game Boy Micro", slug: "consoles/game-boy-micro" },
-
           ],
         },
         {
           label: "Game Boy Cartridges",
           slug: "cartridges/game-boy-cartridges",
+        },
+        {
+          label: "Technical Reference",
+          items: [
+            { label: "Platform Reference", slug: "reference/example" },
+            { label: "Development Resources", slug: "reference/development-resources" },
+            { label: "Glossary", slug: "reference/glossary" },
+          ],
+        },
+        {
+          label: "Repair & Troubleshooting",
+          items: [
+            { label: "Symptom Guide", slug: "repair/overview" },
+            { label: "Identifying a DMG-01 Board Revision", slug: "guides/example" },
+          ],
+        },
+        {
+          label: "Identification & Collecting",
+          items: [
+            { label: "Model Codes & Identification", slug: "collecting/identification" },
+            { label: "Documenting a Console", slug: "consoles/example" },
+          ],
         },
       ],
     }),

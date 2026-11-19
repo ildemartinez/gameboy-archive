@@ -13,10 +13,10 @@ Use this checklist when cataloguing a console so that its identity is based on o
 
 ## Record internal hardware
 
-If the console is already open for legitimate inspection or repair, photograph each board before disturbing connectors. Record every silkscreen identifier, chip marking, date code, and connector condition. For the original Game Boy, distinguish the main CPU board from the display, power, and jack boards; the [DMG revision index](/consoles/dmg-01/pcbs-revisions/dmg-cpu-01/) covers the main-board labels.
+If the console is already open for legitimate inspection or repair, photograph each board before disturbing connectors. Record every silkscreen identifier, chip marking, date code, and connector condition. For the original Game Boy, distinguish the main CPU board from the display, power, and jack boards; the [DMG revision index](/consoles/dmg-01/pcbs-revisions/overview/) covers the main-board labels.
 
 ## Record operation
 
 Test with a known-good compatible power source and cartridge. Note whether the display is readable, whether all controls respond, whether sound works through the speaker and headphones, and whether the link port has been tested. State the test conditions; an untested feature should be recorded as unknown rather than working.
 
-The [model overview](/consoles/game-boy/) links the family pages. For shell details, use the [DMG-01 physical design index](/consoles/dmg-01/physical-design/shell-housing/overview/) and [labels guide](/consoles/dmg-01/physical-design/labels-markings/).
+The [model overview](/consoles/game-boy/) links the family pages. For shell details, use the [DMG-01 physical design index](/consoles/dmg-01/physical-design/overview/) and [labels guide](/consoles/dmg-01/physical-design/labels-markings/).

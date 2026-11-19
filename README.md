@@ -15,7 +15,10 @@ The site is an active work in progress. Coverage varies by topic; it does not cl
 - **Hardware revisions:** individual pages for DMG-CPU-01 through DMG-CPU-08, with identification notes. The publicly documented differences are clearer for -07 and -08 than for every earlier revision.
 - **Technical reference:** processor, memory, display, graphics, audio, cartridges, and link-port concepts for the original platform and related systems.
 - **Cartridges:** Game Boy, Game Boy Color, and Game Boy Advance formats, internal hardware, save technologies, and compatibility across systems.
-- **Identification guidance:** how to record a console’s model, exterior condition, board markings, and tested functions.
+- **Identification and collecting:** model numbers for every system, how to record a console’s exterior, board markings, and tested functions, and how to judge originality and authenticity.
+- **Repair and troubleshooting:** a symptom-based guide that links each fault to the relevant hardware pages and records what still needs research.
+- **Model comparison and glossary:** side-by-side differences between every handheld, and definitions of model codes and hardware terms.
+- **Development resources:** curated documentation, toolchains, emulators, and test suites for developers and researchers.
 
 Some pages include generic SVG visual placeholders that indicate the kind of sourced photograph or diagram that would improve the explanation. These are clearly labeled and are not photographs of Nintendo hardware. Existing photo credits and license notes are kept alongside the relevant assets.
 
@@ -39,7 +42,24 @@ Related systems and accessories such as Super Game Boy and Game Boy Player appea
 - [DMG-01 overview](src/content/docs/consoles/dmg-01/overview.md) · [history](src/content/docs/consoles/dmg-01/history.md)
 - [DMG-01 shell and housing](src/content/docs/consoles/dmg-01/physical-design/shell-housing/overview.md) · [basic colors](src/content/docs/consoles/dmg-01/physical-design/shell-housing/basic-colors.md) · [Play It Loud!](src/content/docs/consoles/dmg-01/physical-design/shell-housing/play-it-loud.md)
 - [Game Boy cartridges](src/content/docs/cartridges/game-boy-cartridges.md)
-- [Game Boy technical reference](src/content/docs/reference/example.md)
+- [Game Boy technical reference](src/content/docs/reference/example.md) · [development resources](src/content/docs/reference/development-resources.md) · [glossary](src/content/docs/reference/glossary.md)
+- [Model comparison](src/content/docs/consoles/model-comparison.md)
+- [Repair and troubleshooting](src/content/docs/repair/overview.md)
+- [Model codes and identification](src/content/docs/collecting/identification.md)
+
+## Navigation structure
+
+The sidebar in `astro.config.mjs` has five top-level sections:
+
+| Section | Contents |
+| --- | --- |
+| Game Boy Family | Family overview, model comparison, the detailed DMG-01 section, and pages for each later model. |
+| Game Boy Cartridges | Cartridge formats, internal hardware, saves, and compatibility. |
+| Technical Reference | Platform reference, development resources, and glossary. |
+| Repair & Troubleshooting | Symptom guide and board-identification procedure. |
+| Identification & Collecting | Model codes, authenticity guidance, and the console documentation checklist. |
+
+When a page moves, keep its old URL working by adding an entry to `redirects` in `astro.config.mjs`.
 
 ## Technology
 
@@ -61,6 +81,12 @@ The project does not use a client-side UI framework such as React, Vue, or Svelt
 │   │   └── placeholders/           # Labeled editorial SVG placeholders
 │   ├── content/
 │   │   ├── docs/                   # Markdown/MDX pages; routes follow this tree
+│   │   │   ├── cartridges/         # Cartridge reference
+│   │   │   ├── collecting/         # Identification and collecting
+│   │   │   ├── consoles/           # Family overview, model comparison, model pages, DMG-01 section
+│   │   │   ├── guides/             # Step-by-step procedures
+│   │   │   ├── reference/          # Technical reference, development resources, glossary
+│   │   │   └── repair/             # Repair and troubleshooting
 │   │   └── i18n/                   # Starlight English locale data
 │   ├── content.config.ts           # Astro content collections and loaders
 │   └── styles/custom.css           # Site-specific styles

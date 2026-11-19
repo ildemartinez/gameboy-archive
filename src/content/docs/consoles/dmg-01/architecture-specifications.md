@@ -25,7 +25,7 @@ The DMG-01 is a cartridge-based handheld built around Nintendo's DMG-CPU, a Shar
 
 The processor executes code from the cartridge and coordinates the system through a memory-mapped address space. The cartridge can add hardware such as a memory bank controller or save RAM, so its capabilities are not fixed by the console alone. The DMG's internal work RAM and video RAM provide working storage for game logic and graphics data.
 
-The graphics hardware reads tile and sprite data from video memory and renders a 160 × 144 image. The LCD is reflective and uses a four-shade palette, so it depends on ambient light rather than a built-in backlight. The display and board assemblies changed over the console's production life; see [LCD Display](/consoles/dmg-01/physical-design/lcd-display/) and [PCBs & Revisions](/consoles/dmg-01/pcbs-revisions/dmg-cpu-01/) for those physical differences.
+The graphics hardware reads tile and sprite data from video memory and renders a 160 × 144 image. The LCD is reflective and uses a four-shade palette, so it depends on ambient light rather than a built-in backlight. The display and board assemblies changed over the console's production life; see [LCD Display](/consoles/dmg-01/physical-design/lcd-display/) and [PCBs & Revisions](/consoles/dmg-01/pcbs-revisions/overview/) for those physical differences.
 
 The sound unit provides two pulse channels, one programmable wave channel, and one noise channel. Its output is routed to the internal mono speaker or, through the headphone jack, stereo headphones. The serial link port supports communication with compatible consoles and accessories; the software or peripheral determines the protocol used.
 
@@ -35,4 +35,4 @@ The sound unit provides two pulse channels, one programmable wave channel, and o
 - [Pan Docs](https://gbdev.io/pandocs/) — maintained technical reference for Game Boy hardware behavior.
 - [Game Boy Complete Technical Reference](https://gekkio.fi/files/gb-docs/gbctr.pdf) — detailed reference covering hardware families and revisions.
 
-For enclosure features and connectors, see [Physical Design](/consoles/dmg-01/physical-design/shell-housing/overview/). For the cartridge interface and compatibility, see [Cartridge Slot](/consoles/dmg-01/physical-design/cartridge-slot/) and [Game Boy Cartridges](/cartridges/game-boy-cartridges/).
+For enclosure features and connectors, see [Physical Design](/consoles/dmg-01/physical-design/overview/). For the cartridge interface and compatibility, see [Cartridge Slot](/consoles/dmg-01/physical-design/cartridge-slot/) and [Game Boy Cartridges](/cartridges/game-boy-cartridges/).

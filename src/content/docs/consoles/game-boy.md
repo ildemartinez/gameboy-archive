@@ -15,4 +15,11 @@ The [Game Boy Color](/consoles/game-boy-color/) added native color graphics and 
 
 ## Technical context
 
-These systems share a family identity, but they do not all use the same processor, screen, cartridge support, battery design, or link connector. The [technical reference](/reference/example/) summarizes core platform concepts and compatibility boundaries. Individual model pages describe the differences that matter for identification and use.
+These systems share a family identity, but they do not all use the same processor, screen, cartridge support, battery design, or link connector. The [Model Comparison](/consoles/model-comparison/) sets these differences side by side, and the [technical reference](/reference/example/) summarizes core platform concepts and compatibility boundaries. Individual model pages describe the differences that matter for identification and use.
+
+## Where to go next
+
+- **Identifying a console:** [Model Codes & Identification](/collecting/identification/) lists every model number and explains how to build an evidence-based identification.
+- **Diagnosing a fault:** [Repair & Troubleshooting](/repair/overview/) starts from the symptom and links to the relevant hardware pages.
+- **Cartridges:** [Game Boy Cartridges](/cartridges/game-boy-cartridges/) covers formats, saves, and compatibility across every model.
+- **Terminology:** the [Glossary](/reference/glossary/) defines model codes and hardware terms used throughout the archive.

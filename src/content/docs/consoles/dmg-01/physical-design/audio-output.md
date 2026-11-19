@@ -9,4 +9,4 @@ The DMG-01 has a built-in mono speaker and a 3.5 mm headphone jack that provides
 
 ![Placeholder for a bottom-edge view locating the headphone jack.](../../../../../assets/placeholders/dmg-01/housing/headphone-jack-location.svg)
 
-The Nintendo [user guide identifies the headphone jack and speaker](https://device.report/m/6151e4f8824cea16a04242437c3473e1138be7691f7c0ceca52f06adf6fc1233.pdf); the original Game Boy's headphone output is stereo while its built-in speaker is mono. For the board assembly and jack PCB, see [PCBs & Revisions](/consoles/dmg-01/pcbs-revisions/dmg-cpu-01/).
+The Nintendo [user guide identifies the headphone jack and speaker](https://device.report/m/6151e4f8824cea16a04242437c3473e1138be7691f7c0ceca52f06adf6fc1233.pdf); the original Game Boy's headphone output is stereo while its built-in speaker is mono. For the board assembly and jack PCB, see [PCBs & Revisions](/consoles/dmg-01/pcbs-revisions/overview/).

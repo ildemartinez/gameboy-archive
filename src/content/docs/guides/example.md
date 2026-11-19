@@ -15,4 +15,4 @@ The DMG-01 uses several circuit boards, and each may carry its own revision iden
 4. Photograph both sides and separately record the LCD, DC converter, and headphone-jack board markings if visible.
 5. Reassemble carefully and test the system with a compatible power source and cartridge.
 
-The board number cannot reliably establish the console's serial date, shell originality, or regional origin. Review the [DMG-CPU revision pages](/consoles/dmg-01/pcbs-revisions/dmg-cpu-01/) for comparison, and see the [hardware database](https://gbhwdb.gekkio.fi/consoles/dmg/) for community-submitted examples.
+The board number cannot reliably establish the console's serial date, shell originality, or regional origin. Review the [DMG-CPU revision pages](/consoles/dmg-01/pcbs-revisions/overview/) for comparison, and see the [hardware database](https://gbhwdb.gekkio.fi/consoles/dmg/) for community-submitted examples.
