@@ -1,0 +1,10 @@
+{
+  // Cloudflare Workers configuration: serves the static Astro build from dist/.
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "gameboy-archive",
+  "compatibility_date": "2026-11-19",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page"
+  }
+}

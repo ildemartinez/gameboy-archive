@@ -119,8 +119,22 @@ npx astro dev stop
 | `npm run build` | Build the static site into `dist/`. |
 | `npm run preview` | Preview the most recent build locally. |
 | `npm run astro -- --help` | Show Astro CLI help. |
+| `npm run deploy` | Build the site and publish it to Cloudflare Workers. |
 
 There is currently no test, lint, or `astro check` script defined in `package.json`. The production build is the available project check.
+
+## Deployment
+
+The site is deployed to [Cloudflare Workers](https://developers.cloudflare.com/workers/static-assets/) as static assets. `wrangler.jsonc` points Cloudflare at the `dist/` build output and serves `404.html` for unknown routes; no Worker code or Astro adapter is needed.
+
+To deploy from your machine:
+
+```sh
+npx wrangler login   # once, opens the browser to authorize your Cloudflare account
+npm run deploy
+```
+
+To deploy automatically on every push, connect the GitHub repository in the Cloudflare dashboard under **Workers & Pages → Create → Import a repository**, with build command `npm run build` and deploy command `npx wrangler deploy`.
 
 ## Contributing
 
